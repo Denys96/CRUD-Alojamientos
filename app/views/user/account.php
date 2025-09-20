@@ -1,7 +1,7 @@
 <div class="row">
   <div class="col-12">
     <h2>Hola, <?php echo htmlspecialchars($user['name']); ?> — Tus alojamientos</h2>
-    <p>Vista de cuenta. Aquí puedes ver los alojamientos que agregaste a tu cuenta y eliminarlos si lo deseas.</p>
+    <p>Vista de alojamientos, puedes eliminar los alojamientos que no quieras.</p>
   </div>
   <?php if (empty($selected)): ?><div class="col-12"><p>No has agregado alojamientos aún.</p></div><?php endif; ?>
   <?php foreach ($selected as $acc): ?>
